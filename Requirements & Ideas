@@ -1,0 +1,56 @@
+
+1. Title:
+       Pharmacy Inventory and Prescription Validation Platform
+
+2. Domain:
+         Healthcare
+
+3. Who is the user?
+
+*Admin – Manages users and monitors the system.
+*Pharmacist – Manages medicines and validates prescriptions.
+
+
+4. What problem are we solving?
+
+Many pharmacies manage medicine stock manually, which can lead to stock shortages and expired medicines. Prescription verification is also done manually, increasing the chance of errors. This system helps pharmacies manage inventory efficiently and validate prescriptions easily.
+
+
+5. Proposed Solution
+
+The application allows pharmacists to manage medicine inventory, track expiry dates, monitor low stock, upload and validate prescriptions, and view a dashboard with important information.
+
+
+6. Core Entities / Database Tables    
+          * Users
+          * Medicines
+          * Inventory
+          * Prescriptions
+          * Prescription_Validation
+          * Notifications
+
+
+7. User Roles & Permissions
+
+         Admin – Manage users and view reports.
+         Pharmacist – Manage medicines, inventory, and validate prescriptions.
+
+
+8. Success Criteria
+
+           *  Medicines can be added and updated easily.
+           *  Expired and low-stock medicines are displayed.
+           *  Prescriptions can be uploaded and validated successfully.
+
+
+9. Out of Scope:
+
+        * Online payment
+        * Home delivery
+        * Barcode scanning
+        * AI-based prescription analysis
+
+
+10. Chosen Track
+
+      Python (FastAPI) + Flutter + SQLite(MVP)
