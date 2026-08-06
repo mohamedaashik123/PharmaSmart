@@ -1,1 +1,2 @@
-# PharmaSmart
+PharmaSmart:
+            Many pharmacies use manual methods to manage medicine inventory and prescriptions, which can cause stock shortages, expired medicines, and prescription errors. This project develops a Pharmacy Inventory and Prescription Validation Platform to digitally manage medicine stock, track expiry dates, monitor low inventory, and validate prescriptions. The system improves accuracy, reduces manual work, and enhances the efficiency of pharmacy operations.
